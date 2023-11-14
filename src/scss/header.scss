@@ -1,0 +1,96 @@
+.header {
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+
+  width: 100%;
+  max-width: 1200px;
+
+  font-size: 11px;
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    gap: 17px 45px;
+  }
+
+
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0 24px;
+
+    .nav-item {
+      text-transform: uppercase;
+
+      transition: all 0.2s linear;
+
+      cursor: pointer;
+
+      &:hover {
+        color: $white-color;
+      }
+    }
+  }
+
+  @media (max-width: 582px) {
+    .container {
+      flex-direction: column;
+      align-items: start;
+    }
+    .nav {
+      flex-direction: column;
+
+      .nav-item {
+        font-weight: 700;
+      }
+    }
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: $white-color;
+    gap: 16px;
+
+    .logo-img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  .search-input {
+    height: 25px;
+
+
+    width: 248px;
+    max-width: 100%;
+
+    margin-left: auto;
+    padding-left: 10px;
+
+    color: inherit;
+
+    border: none;
+    border-radius: 50px;
+
+    background-color: $dark-color;
+
+    &::placeholder {
+      text-transform: uppercase;
+      font-size: 13.3;
+    }
+  }
+
+  @media (max-width: 875px) {
+    .search-input {
+      width: 100%;
+    }
+  }
+}

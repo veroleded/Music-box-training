@@ -7,10 +7,24 @@
     <title>Music Box | Veroled</title>
   </head>
   <body id="main">
-    <header class="header"></header>
+    <header class="header">
+      <div class="container">
+        <div class="logo mr-45">
+          <img class="logo-img" src="./images/logo.svg" alt="logo" />
+          <div class="div">music box</div>
+        </div>
+        <nav class="nav">
+          <a href="#" class="nav-item">Главная</a>
+          <a href="#" class="nav-item">Каталог</a>
+          <a href="#" class="nav-item">Исполнители</a>
+          <a href="#" class="nav-item">Контакты</a>
+        </nav>
+        <input type="text" class="search-input" placeholder="поиск..." />
+      </div>
+    </header>
     <section id="page-description" class="wrapper bg-img min-h-750">
       <div
-        class="container flex flex-column flex-align-items-center mr-y-200 text-align-center white-color"
+        class="container flex flex-column flex-align-items-center desc-container text-align-center white-color"
       >
         <h1>онлайн музыка где угодно</h1>
         <h2>без ограничений</h2>
@@ -20,8 +34,16 @@
         </p>
         <form action="submit" class="form gap-24">
           <div class="input-group">
-            <input type="text" class="input white-color" placeholder="Имя" />
-            <input type="text" class="input white-color" placeholder="Email" />
+            <input
+              type="text"
+              class="form-input white-color"
+              placeholder="Имя"
+            />
+            <input
+              type="text"
+              class="form-input white-color"
+              placeholder="Email"
+            />
           </div>
           <button class="desc-btn btn-radius-5 bg-green-color w-100">
             получить доступ

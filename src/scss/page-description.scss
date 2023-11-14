@@ -11,3 +11,14 @@
   font-size: 13.3px;
   background-color: $green-color;
 }
+
+.desc-container {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+@media (max-width: 582px) {
+  .desc-container {
+    margin-top: 250px;
+  }
+}

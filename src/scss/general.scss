@@ -51,6 +51,11 @@ h2 {
   text-transform: uppercase;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 @media (max-width: 1239px) {
   h1 {
     font-size: 30px;
@@ -96,7 +101,7 @@ h2 {
   grid-gap: 24px;
 }
 
-.input {
+.form-input {
   padding-left: 20px;
   min-width: 270px;
   min-height: 50px;
