@@ -1,0 +1,13 @@
+
+@include bg-img('banner.png');
+
+.form-description {
+  margin-top: calc(16px + 15 * (100vw - 414px) / 1016);
+}
+
+.desc-btn {
+  @include btn;
+  color: $white-color;
+  font-size: 13.3px;
+  background-color: $green-color;
+}

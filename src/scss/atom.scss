@@ -1,0 +1,62 @@
+.mr-y-200 {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.pr-20 {
+  padding-right: 20px;
+}
+
+.mt-31 {
+  margin-top: 31px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.min-h-750 {
+  min-height: 750px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+
+  &.flex-align-items-center {
+    align-items: center;
+  }
+
+  &.flex-column {
+    flex-direction: column;
+  }
+}
+
+@mixin color($colors) {
+  @each $name, $color in $colors {
+    .#{$name} {
+      color: $color;
+    }
+
+    .bg-#{$name} {
+      background-color: $color;
+    }
+  }
+}
+
+@include color($colors);
+
+.grid {
+  display: grid;
+
+  &.gap-24 {
+    grid-gap: 24px;
+  }
+}
+
+.gap-24 {
+  grid-gap: 24px;
+}
