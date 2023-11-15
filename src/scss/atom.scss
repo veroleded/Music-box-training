@@ -7,6 +7,20 @@
   padding-right: 20px;
 }
 
+.pt-100 {
+  padding-top: 100px;
+}
+
+.px-30 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.py-16 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
 .mt-31 {
   margin-top: 31px;
 }
@@ -19,6 +33,10 @@
   margin-bottom: 17px;
 }
 
+.mt-24 {
+  margin-top: 24px;
+}
+
 .mb-64 {
   margin-bottom: 64px;
 }
@@ -27,11 +45,24 @@
   margin-bottom: 45px;
 }
 
+.mb-48 {
+  margin-bottom: 48px;
+}
+
 .mt-43 {
   margin-top: 43px;
 }
+
 .mb-0 {
   margin-bottom: 0;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
 }
 
 .w-100 {
@@ -86,4 +117,8 @@
 
 .gap-24 {
   grid-gap: 24px;
+}
+
+.wrap-reverse {
+  flex-wrap: wrap-reverse;
 }

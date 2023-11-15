@@ -33,8 +33,9 @@ body {
 }
 
 h1,
-h2 {
-  margin: 0;
+h2,
+h3 {
+  margin: 0 0 0 0;
 }
 
 h1 {
@@ -80,7 +81,7 @@ a {
 
       background-image: url("../images/#{$img-name}");
       background-size: cover;
-
+      background-position: center;
       content: "";
     }
   }
@@ -125,8 +126,10 @@ a {
 }
 
 @mixin btn {
+  display: inline-block;
   padding: 20px 30px;
-  width: auto;
+  width: min-content;
+  text-wrap: nowrap;
   border: none;
   text-transform: uppercase;
 
