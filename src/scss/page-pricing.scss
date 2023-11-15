@@ -1,0 +1,78 @@
+#page-pricing {
+  .container {
+    padding-top: 100px;
+  }
+
+  .pricing-item-group {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+
+    gap: 50px 48px;
+  }
+
+  .pricing-item {
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 64px;
+
+    height: 100%;
+
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+    border-radius: 1rem;
+
+    flex: 1;
+
+    h3 {
+      font-size: 24px;
+      text-transform: uppercase;
+      font-weight: normal;
+
+      margin-bottom: 200px;
+    }
+
+    @media (max-width: 800px) {
+      h3 {
+        font-size: 16px;
+      }
+    }
+
+    .pricing-value {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+
+      margin-top: 1.5rem;
+      line-height: 1rem;
+      font-size: 64px;
+      text-transform: uppercase;
+
+      .rub {
+        font-size: 32px;
+        transform: translateY(-6px);
+      }
+    }
+
+    .pricing-item-footer {
+      font-size: 13px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  @mixin price-card-bg($img-name) {
+    .bg-#{$img-name} {
+      background-image: url("../images/#{$img-name}.png");
+      background-size: cover;
+      background-repeat: no-repeat
+    }
+  }
+
+  @include price-card-bg(free);
+  @include price-card-bg(standart);
+  @include price-card-bg(premium);
+}
