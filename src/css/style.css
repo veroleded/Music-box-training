@@ -96,7 +96,6 @@ a {
 .btn {
   display: inline-block;
   padding: 20px 30px;
-  width: min-content;
   text-wrap: nowrap;
   border: none;
   text-transform: uppercase;
@@ -107,7 +106,6 @@ a {
 .btn-grey {
   display: inline-block;
   padding: 20px 30px;
-  width: min-content;
   text-wrap: nowrap;
   border: none;
   text-transform: uppercase;
@@ -226,13 +224,12 @@ a {
 }
 
 .form-description {
-  margin-top: calc(16px + 15 * (100vw - 414px) / 1016);
+  margin-top: calc(16px + 15 * (100vw - 414px) / 1026);
 }
 
 .desc-btn {
   display: inline-block;
   padding: 20px 30px;
-  width: min-content;
   text-wrap: nowrap;
   border: none;
   text-transform: uppercase;
@@ -339,9 +336,9 @@ a {
   flex: 1 1;
 }
 .news-item h3 {
-  margin-bottom: calc(16px + 14 * (100vw - 414px) / 1016);
+  margin-bottom: calc(16px + 14 * (100vw - 414px) / 1026);
   text-transform: capitalize;
-  font-size: calc(16px + 14 * (100vw - 414px) / 1016);
+  font-size: calc(16px + 14 * (100vw - 414px) / 1026);
   line-height: 1.5;
   font-weight: normal;
 }
@@ -373,6 +370,30 @@ a {
   text-transform: uppercase;
 }
 
+.page-app-item {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin-top: calc(48px + 18 * (100vw - 414px) / 1026);
+  gap: 0 144px;
+}
+.page-app-item .app-item-img {
+  margin: auto;
+}
+.page-app-item .app-item-body {
+  max-width: 600px;
+  width: 100%;
+}
+.page-app-item .app-item-body .app-item-btn {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 12.8px;
+  text-transform: none;
+  border-radius: 32px;
+  background-color: #95390c;
+}
+
 .mr-y-200 {
   margin-top: 200px;
   margin-bottom: 200px;
@@ -394,6 +415,11 @@ a {
 .py-16 {
   padding-top: 16px;
   padding-bottom: 16px;
+}
+
+.py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .mt-31 {
