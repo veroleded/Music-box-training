@@ -1,4 +1,4 @@
-.mr-y-200 {
+.my-200 {
   margin-top: 200px;
   margin-bottom: 200px;
 }
@@ -78,6 +78,10 @@
   min-height: 750px;
 }
 
+.min-h-713 {
+  min-height: 713px;
+}
+
 .text-align-center {
   text-align: center;
 }
@@ -133,4 +137,12 @@
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
+}
+
+.bg-red {
+  background-color: $red-color;
+}
+
+.bg-purple {
+  background-color: $purple-color;
 }

@@ -415,8 +415,8 @@ a:hover {
 }
 
 .footer-top {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 62px;
+  margin-bottom: 72px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   gap: 30px 40px;
@@ -449,8 +449,8 @@ a:hover {
 }
 
 .footer-bot {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 40px;
+  margin-bottom: 50px;
   display: flex;
   gap: 16px 16px;
 }
@@ -460,7 +460,7 @@ a:hover {
   }
 }
 
-.mr-y-200 {
+.my-200 {
   margin-top: 200px;
   margin-bottom: 200px;
 }
@@ -538,6 +538,10 @@ a:hover {
 
 .min-h-750 {
   min-height: 750px;
+}
+
+.min-h-713 {
+  min-height: 713px;
 }
 
 .text-align-center {
@@ -650,6 +654,59 @@ a:hover {
   background-position: center;
   background-size: 100vw;
   background-repeat: no-repeat;
+}
+
+.bg-red {
+  background-color: #95390c;
+}
+
+.bg-purple {
+  background-color: #5328a1;
+}
+
+.bg-img {
+  position: relative;
+}
+.bg-img::before {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/Morten Harket.png");
+  background-size: cover;
+  background-position: center;
+  content: "";
+}
+
+.artist-desc-container {
+  margin-top: 250px;
+  margin-bottom: 200px;
+}
+@media (max-width: 415px) {
+  .artist-desc-container {
+    margin-top: 225px;
+  }
+}
+
+.artist-btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+}
+.artist-btn-group .btn-artist-desc {
+  display: flex;
+  align-items: center;
+  gap: 0 16px;
+  width: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.artist-btn-group .btn-artist-desc .btn-img {
+  width: 20px;
+  height: 20px;
+  filter: invert(1);
 }
 
 /*# sourceMappingURL=style.css.map */
