@@ -520,6 +520,35 @@ a:hover {
   color: #e0e0e0;
 }
 
+.similar-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 50px;
+}
+
+.similar-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 250px;
+  min-width: 137px;
+  width: calc(137px + 113 * (100vw - 414px) / 1026);
+}
+.similar-item img {
+  width: 100%;
+}
+.similar-item h3 {
+  font-size: 17.9px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.similar-item span {
+  font-size: 16px;
+  color: #e0e0e0;
+}
+
 .footer-top {
   margin-top: 62px;
   margin-bottom: 72px;
@@ -624,6 +653,10 @@ a:hover {
 
 .mb-48 {
   margin-bottom: 48px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
 }
 
 .mt-43 {
