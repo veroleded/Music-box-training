@@ -69,8 +69,8 @@ a {
   }
 }
 
-@mixin bg-img($img-name) {
-  .bg-img {
+@mixin bg-img($img-name, $page) {
+  .#{$page}-bg-img {
     position: relative;
 
     &::before {

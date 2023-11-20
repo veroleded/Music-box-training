@@ -1,4 +1,5 @@
-@include bg-img('Morten Harket.png');
+
+@include bg-img('Morten Harket.png', artist);
 
 .artist-desc-container {
   margin-top: 250px;

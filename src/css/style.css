@@ -227,10 +227,10 @@ a:hover {
   }
 }
 
-.bg-img {
+.main-bg-img {
   position: relative;
 }
-.bg-img::before {
+.main-bg-img::before {
   position: absolute;
   z-index: -1;
   width: 100%;
@@ -414,10 +414,10 @@ a:hover {
   background-color: #95390c;
 }
 
-.bg-img {
+.artist-bg-img {
   position: relative;
 }
-.bg-img::before {
+.artist-bg-img::before {
   position: absolute;
   z-index: -1;
   width: 100%;
