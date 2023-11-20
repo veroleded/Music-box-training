@@ -99,6 +99,7 @@ a {
   text-wrap: nowrap;
   border: none;
   text-transform: uppercase;
+  text-wrap: nowrap;
   width: min-content;
   cursor: pointer;
   border-radius: 5px;
@@ -114,6 +115,7 @@ a {
   text-wrap: nowrap;
   border: none;
   text-transform: uppercase;
+  text-wrap: nowrap;
   width: min-content;
   cursor: pointer;
   border-radius: 5px;
@@ -251,6 +253,7 @@ a:hover {
   text-wrap: nowrap;
   border: none;
   text-transform: uppercase;
+  text-wrap: nowrap;
   width: min-content;
   cursor: pointer;
   border-radius: 5px;
