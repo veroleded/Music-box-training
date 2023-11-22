@@ -171,7 +171,7 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 17px 45px;
+  gap: 16px 45px;
 }
 .header .nav {
   display: flex;
@@ -211,7 +211,7 @@ a:hover {
   height: 24px;
 }
 .header .search-input {
-  height: 25px;
+  height: 27px;
   width: 248px;
   max-width: 100%;
   margin-left: auto;
@@ -223,7 +223,7 @@ a:hover {
 }
 .header .search-input::placeholder {
   text-transform: uppercase;
-  font-size: 13.3;
+  font-size: 13.3px;
 }
 @media (max-width: 875px) {
   .header .search-input {
