@@ -423,6 +423,7 @@ a {
   }
   .page-app-item img {
     width: 333px;
+    margin: auto;
   }
 }
 
@@ -436,6 +437,7 @@ a {
   padding: 16px 40px;
   background-color: #95390c;
   font-size: 12.8px;
+  text-transform: capitalize;
   border-radius: 32px;
 }
 

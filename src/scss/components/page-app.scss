@@ -18,6 +18,7 @@
 
     img {
       width: 333px;
+      margin: auto;
     }
   }
 }
@@ -32,5 +33,6 @@
   padding: 16px 40px;
   background-color: $red-color;
   font-size: 12.8px;
+  text-transform: capitalize;
   border-radius: 32px;
 }
