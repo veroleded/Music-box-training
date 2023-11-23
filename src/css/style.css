@@ -422,7 +422,7 @@ a {
     flex-wrap: wrap-reverse;
   }
   .page-app-item img {
-    width: 100%;
+    width: 333px;
   }
 }
 
