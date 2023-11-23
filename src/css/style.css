@@ -251,6 +251,7 @@ a {
 #page-pricing {
   padding-left: 20px;
   padding-right: 20px;
+  max-width: 1240px;
 }
 
 .pricing-item-group {
