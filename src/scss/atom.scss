@@ -1,40 +1,21 @@
-.my-200 {
-  margin-top: 200px;
-  margin-bottom: 200px;
+// text
+
+.text-align-center {
+  text-align: center;
 }
 
-.pr-20 {
-  padding-right: 20px;
+// layout 
+
+// padding 
+
+.px-200 {
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
-.pt-100 {
-  padding-top: 100px;
-}
+// margin 
 
-.px-30 {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.py-16 {
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
-
-.py-100 {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.mt-31 {
-  margin-top: 31px;
-}
-
-.mt-18 {
-  margin-top: 18px;
-}
-
-.mr-45 {
+.mr-90 {
   margin-right: 90px;
 }
 
@@ -42,115 +23,20 @@
   margin-bottom: 17px;
 }
 
-.mt-24 {
-  margin-top: 24px;
+
+//
+.pos-rel {
+  position: relative;
 }
 
-.mb-64 {
-  margin-bottom: 64px;
-}
+// color 
 
-.mb-45 {
-  margin-bottom: 45px;
-}
-
-.mb-48 {
-  margin-bottom: 48px;
-}
-
-.mb-100 {
-  margin-bottom: 100px;
-}
-
-.mt-43 {
-  margin-top: 43px;
-}
-
-.mb-0 {
-  margin-bottom: 0;
-}
-
-.mb-24 {
-  margin-bottom: 24px;
-}
-
-.mb-16 {
-  margin-bottom: 16px;
-}
-
-.w-100 {
-  width: 100%;
-}
-
-.min-h-750 {
-  min-height: 750px;
-}
-
-.min-h-713 {
-  min-height: 713px;
-}
-
-.text-align-center {
-  text-align: center;
-}
-
-.flex {
-  display: flex;
-
-  &.flex-align-items-center {
-    align-items: center;
-  }
-
-  &.flex-column {
-    flex-direction: column;
-  }
-}
-
-.flex-grow-1 {
-  flex: 1;
-}
-
-@mixin color($colors) {
-  @each $name, $color in $colors {
+@mixin colors() {
+  @each $name, $value in $colors {
     .#{$name} {
-      color: $color;
-    }
-
-    .bg-#{$name} {
-      background-color: $color;
-    }
+      color: #{$value};
+    } 
   }
 }
 
-@include color($colors);
-
-.grid {
-  display: grid;
-
-  &.gap-24 {
-    grid-gap: 24px;
-  }
-}
-
-.gap-24 {
-  grid-gap: 24px;
-}
-
-.wrap-reverse {
-  flex-wrap: wrap-reverse;
-}
-
-.bg-gradient {
-  background-image: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
-  background-position: center;
-  background-size: 100vw;
-  background-repeat: no-repeat;
-}
-
-.bg-red {
-  background-color: $red-color;
-}
-
-.bg-purple {
-  background-color: $purple-color;
-}
+@include colors();

@@ -1,14 +1,7 @@
 @import "./variables.scss";
 @import "./general.scss";
 @import "./layout.scss";
-@import "./header.scss";
-@import "./main/page-description.scss";
-@import "./main/page-pricing.scss";
-@import "./main/page-news.scss";
-@import "./main/page-app.scss";
-@import "./artist/page-description.scss";
-@import "./artist/page-popular-track.scss";
-@import "./artist/page-discography.scss";
-@import "./artist/page-similar.scss";
-@import "./footer.scss";
+@import "./components/header.scss";
+@import "./components/main-page-description.scss";
+@import "./components/footer.scss";
 @import "./atom.scss";
