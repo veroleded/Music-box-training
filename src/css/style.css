@@ -485,6 +485,10 @@ a {
   }
 }
 
+.bg-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
 .text-align-center {
   text-align: center;
 }
@@ -524,6 +528,10 @@ a {
 
 .mb-64 {
   margin-bottom: 64px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
 }
 
 .mt-100 {
