@@ -201,6 +201,15 @@ a {
   }
 }
 
+.desc-h3 {
+  margin-top: 31px;
+}
+@media (max-width: 415) {
+  .desc-h3 {
+    margin-top: 16px;
+  }
+}
+
 .desc-form {
   max-width: 570px;
   width: 100%;
@@ -234,7 +243,7 @@ a {
 }
 .desc-form .btn-desc {
   width: 100%;
-  height: 57px;
+  height: 60px;
   margin: 0;
   font-size: 13.3px;
 }
