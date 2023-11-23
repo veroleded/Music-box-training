@@ -83,6 +83,16 @@ a {
   background-color: #34c176;
 }
 
+.btn-purple {
+  color: #fff;
+  background-color: #5328a1;
+}
+
+.btn-red {
+  color: #fff;
+  background-color: #95390c;
+}
+
 .wrapper {
   max-width: 1440px;
   width: 100%;
@@ -439,6 +449,51 @@ a {
   font-size: 12.8px;
   text-transform: capitalize;
   border-radius: 32px;
+}
+
+.artist-bg-img {
+  background-image: url("../images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.p-artist-desc {
+  padding-top: 250px;
+  padding-bottom: 200px;
+}
+@media (max-width: 415px) {
+  .p-artist-desc {
+    padding-top: 225px;
+  }
+}
+
+.artist-desc h1 {
+  margin-bottom: 16px;
+}
+
+.artist-btn-group {
+  display: flex;
+  gap: 24px;
+}
+@media (max-width: 415px) {
+  .artist-btn-group {
+    flex-wrap: wrap;
+  }
+}
+
+.btn-artist {
+  width: 200px;
+  padding: 20px 30px;
+  margin: 0;
+  font-size: 12.8px;
+  display: flex;
+  align-items: center;
+}
+.btn-artist .btn-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+  filter: invert(1);
 }
 
 .footer-top {
