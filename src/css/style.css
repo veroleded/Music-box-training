@@ -109,7 +109,7 @@ a {
 }
 .header {
   position: absolute;
-  top: 26px;
+  top: 25px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 100;
@@ -160,7 +160,7 @@ a {
   }
 }
 .header .search-input {
-  height: 27px;
+  height: 28px;
   width: 248px;
   margin-left: auto;
   padding-left: 10px;
@@ -178,10 +178,10 @@ a {
     width: 100%;
   }
   .header .nav {
-    margin-bottom: 18px;
+    margin-bottom: 16px;
   }
   .header .header-logo {
-    margin-bottom: 17px;
+    margin-bottom: 15px;
   }
 }
 

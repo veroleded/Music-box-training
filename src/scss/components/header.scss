@@ -1,6 +1,6 @@
 .header {
   position: absolute;
-  top: 26px;
+  top: 25px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 100;
@@ -64,7 +64,7 @@
   }
 
   .search-input {
-    height: 27px;
+    height: 28px;
 
     width: 248px;
 
@@ -90,10 +90,10 @@
     }
 
     .nav {
-      margin-bottom: 18px;
+      margin-bottom: 16px;
     }
     .header-logo {
-      margin-bottom: 17px;
+      margin-bottom: 15px;
     }
   }
 }
