@@ -248,6 +248,11 @@ a {
   font-size: 13.3px;
 }
 
+#page-pricing {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .pricing-item-group {
   display: flex;
   gap: 50px;
