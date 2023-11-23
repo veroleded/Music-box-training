@@ -1,0 +1,90 @@
+
+
+.pricing-item-group {
+  display: flex;
+  gap: 50px;
+  margin: auto;
+  width: 100%;
+
+  @media (max-width:415px) {
+    flex-direction: column;
+  }
+}
+
+.pricing-item {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+
+  border-radius: 1rem;
+
+  h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: normal;
+
+    @media (max-width:415px) {
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+
+  .pricing-body {
+    margin-top: 200px;
+    margin-bottom: 64px;
+
+    .pricing-value {
+      line-height: 1rem;
+      font-size: 64px;
+
+      span {
+        position: relative;
+        top: -8px;
+        margin-left: 16px;
+        font-size: 32px;
+        text-transform: uppercase;
+        vertical-align: top;
+      }
+    }
+  }
+
+  .pricing-item-footer {
+    font-size: 12.8px;
+    margin-bottom: 64px;
+    margin-top: 0;
+  }
+}
+
+.btn-price {
+  width: 100%;
+  height: 66px;
+
+  border: 1px solid $white-color;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 16px;
+}
+
+.pricing-footer {
+  margin-top: 48px;
+}
+
+@mixin bg-img($img-name) {
+  background-image: url("../images/#{$img-name}.png");
+  background-size: cover;
+}
+
+.bg-free {
+  @include bg-img(free);
+}
+
+.bg-premium {
+  @include bg-img(premium);
+}
+
+.bg-standart {
+  @include bg-img(standart);
+}
