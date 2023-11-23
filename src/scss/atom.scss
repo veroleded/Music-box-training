@@ -59,3 +59,10 @@
 }
 
 @include colors();
+
+
+@media (max-width: 415px) {
+  .wrap-reverse-mobile {
+    flex-wrap: wrap-reverse;
+  }
+}

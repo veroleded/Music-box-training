@@ -527,4 +527,10 @@ a {
   color: #fff;
 }
 
+@media (max-width: 415px) {
+  .wrap-reverse-mobile {
+    flex-wrap: wrap-reverse;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
