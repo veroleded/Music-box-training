@@ -1,0 +1,36 @@
+@import "../mixins.scss";
+
+#page-app {
+  @include container;
+}
+
+.page-app-item {
+  display: flex;
+
+  gap: 16px 144px;
+
+  p {
+    color: $dark-grey-color;
+  }
+
+  @media (max-width:415px) {
+    flex-wrap: wrap-reverse;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.app-item-body {
+  max-width: 600px;
+}
+
+.btn-app {
+  display: inline-block;
+  margin: 0;
+  padding: 16px 40px;
+  background-color: $red-color;
+  font-size: 12.8px;
+  border-radius: 32px;
+}

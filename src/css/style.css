@@ -404,6 +404,41 @@ a {
   font-size: 12px;
 }
 
+#page-app {
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.page-app-item {
+  display: flex;
+  gap: 16px 144px;
+}
+.page-app-item p {
+  color: #cacaca;
+}
+@media (max-width: 415px) {
+  .page-app-item {
+    flex-wrap: wrap-reverse;
+  }
+  .page-app-item img {
+    width: 100%;
+  }
+}
+
+.app-item-body {
+  max-width: 600px;
+}
+
+.btn-app {
+  display: inline-block;
+  margin: 0;
+  padding: 16px 40px;
+  background-color: #95390c;
+  font-size: 12.8px;
+  border-radius: 32px;
+}
+
 .footer-top {
   margin-top: 62px;
   margin-bottom: 72px;
@@ -463,6 +498,10 @@ a {
   padding-top: 100px;
 }
 
+.pb-100 {
+  padding-bottom: 100px;
+}
+
 .mr-90 {
   margin-right: 90px;
 }
@@ -485,6 +524,10 @@ a {
 
 .mb-64 {
   margin-bottom: 64px;
+}
+
+.mt-100 {
+  margin-top: 100px;
 }
 
 .pos-rel {
