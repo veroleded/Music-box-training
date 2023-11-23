@@ -455,10 +455,16 @@ a {
   background-image: url("../images/Morten Harket.png");
   background-position: center;
   background-size: cover;
+  height: 713px;
+}
+@media (max-width: 415px) {
+  .artist-bg-img {
+    height: 730px;
+  }
 }
 
 .p-artist-desc {
-  padding-top: 250px;
+  padding-top: 253px;
   padding-bottom: 200px;
 }
 @media (max-width: 415px) {
