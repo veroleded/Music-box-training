@@ -4,6 +4,17 @@
   background-size: cover;
 }
 
+.p-main-desc {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  @media (max-width: 415px) {
+    & {
+      padding-top: 250px;
+    }
+  }
+}
+
 .desc-form {
   max-width: 570px;
   width: 100%;
