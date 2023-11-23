@@ -270,6 +270,8 @@ a {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 1rem;
+  width: 367px;
+  max-width: 100%;
 }
 .pricing-item h3 {
   font-size: 24px;
@@ -317,6 +319,7 @@ a {
 
 .pricing-footer {
   margin-top: 40px;
+  margin-bottom: 0;
 }
 
 .bg-free {
