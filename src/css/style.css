@@ -282,13 +282,8 @@ a {
   }
 }
 .pricing-item .pricing-body {
-  margin-top: 200px;
+  margin-top: 224px;
   margin-bottom: 64px;
-}
-@media (max-width: 415px) {
-  .pricing-item .pricing-body {
-    margin-top: 224px;
-  }
 }
 .pricing-item .pricing-body .pricing-value {
   line-height: 1rem;

@@ -32,14 +32,9 @@
   }
 
   .pricing-body {
-    margin-top: 200px;
+    margin-top: 224px;
     margin-bottom: 64px;
 
-    @media (max-width: 415px) {
-      & {
-        margin-top: 224px;
-      }
-    }
 
     .pricing-value {
       line-height: 1rem;
