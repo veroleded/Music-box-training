@@ -5,7 +5,7 @@
 
   height: 713px;
 
-  @media (max-width: 415px) {
+  @media  (width <= 415px) {
     & {
       height: 730px;
     }
@@ -16,7 +16,7 @@
   padding-top: 253px;
   padding-bottom: 200px;
 
-  @media (max-width: 415px) {
+  @media (width <= 415px) {
     & {
       padding-top: 225px;
     }
@@ -33,7 +33,7 @@
   display: flex;
   gap: 24px;
 
-  @media (max-width: 415px) {
+  @media (width <= 415px) {
     flex-wrap: wrap;
   }
 }

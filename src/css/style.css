@@ -463,7 +463,7 @@ a {
   background-size: cover;
   height: 713px;
 }
-@media (max-width: 415px) {
+@media (width <= 415px) {
   .artist-bg-img {
     height: 730px;
   }
