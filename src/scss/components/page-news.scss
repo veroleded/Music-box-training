@@ -8,7 +8,7 @@
   display: flex;
   gap: 50px;
 
-  @media (max-width: 415px) {
+  @media (width <= 415px) {
     & {
       flex-wrap: wrap;
     }
@@ -19,7 +19,7 @@
   max-width: 575px;
   flex: 1 1;
 
-  @media (max-width: 415px) {
+  @media (width <= 415px) {
     & {
       width: 100%;
     }
@@ -38,7 +38,7 @@
     margin-top: 0;
     margin-bottom: 30px;
 
-    @media (max-width: 414px) {
+    @media (width <= 415px) {
       font-size: 16px;
       margin-bottom: 16px;
     }

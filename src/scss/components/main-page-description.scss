@@ -8,7 +8,7 @@
   padding-top: 199px;
   padding-bottom: 201px;
 
-  @media (max-width: 415px) {
+  @media (width <= 415px) {
     & {
       padding-top: 247px;
     }
@@ -18,7 +18,7 @@
 .desc-h3 {
   margin-top: 31px;
 
-  @media (max-width: 415px) {
+  @media (width <= 415px) {
     & {
       margin-top: 16px;
     }
@@ -55,7 +55,7 @@
       }
     }
 
-    @media (max-width: 600px) {
+    @media (width <= 600px) {
       .form-input {
         max-width: 100%;
         width: 100%;

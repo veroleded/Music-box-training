@@ -1,4 +1,4 @@
-@import "../mixins.scss";
+@import "../mixins";
 
 #page-app {
   @include container;
@@ -13,7 +13,7 @@
     color: $dark-grey-color;
   }
 
-  @media (max-width:415px) {
+  @media (width <= 415px) {
     flex-wrap: wrap-reverse;
 
     img {

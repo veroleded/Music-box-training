@@ -8,10 +8,12 @@
   text-align: center;
   width: 250px;
 
-  @media (max-width: 415px) {
-    width: 137px;
-    img {
+  @media (width <= 415px) {
+    & {
       width: 137px;
+      img {
+        width: 137px;
+      }
     }
   }
 
@@ -22,8 +24,8 @@
       font-weight: bold;
       text-transform: capitalize;
       margin-bottom: 0;
-  
-      @media (max-width: 415px) {
+
+      @media (width <= 415px) {
         & {
           margin-top: 10px;
         }

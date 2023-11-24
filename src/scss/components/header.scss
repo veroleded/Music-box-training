@@ -46,7 +46,7 @@
     }
   }
 
-  @media (max-width: 582px) {
+  @media (width <= 582px) {
     .container-header {
       flex-direction: column;
       align-items: start;
@@ -57,7 +57,7 @@
     }
   }
 
-  @media (max-width: 415px) {
+  @media (width <= 415px) {
     .nav {
       flex-direction: column;
     }
@@ -84,7 +84,7 @@
     }
   }
 
-  @media (max-width: 875px) {
+  @media (width <= 875px) {
     .search-input {
       width: 100%;
     }
@@ -92,6 +92,7 @@
     .nav {
       margin-bottom: 16px;
     }
+
     .header-logo {
       margin-bottom: 15px;
     }

@@ -10,8 +10,10 @@
   margin: auto;
   width: 100%;
 
-  @media (max-width:415px) {
-    flex-direction: column;
+  @media (width <= 415px) {
+    & {
+      flex-direction: column;
+    }
   }
 }
 
@@ -28,7 +30,7 @@
     text-transform: uppercase;
     font-weight: normal;
 
-    @media (max-width:415px) {
+    @media (width <= 415px) {
       font-size: 16px;
       font-weight: bold;
     }
