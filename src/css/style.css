@@ -587,6 +587,25 @@ a {
   }
 }
 
+.similar-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 50px;
+}
+
+.similar-item {
+  text-align: center;
+  width: 250px;
+}
+@media (max-width: 415px) {
+  .similar-item {
+    width: 137px;
+  }
+  .similar-item img {
+    width: 137px;
+  }
+}
+
 .footer-top {
   margin-top: 62px;
   margin-bottom: 72px;

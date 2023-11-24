@@ -1,3 +1,17 @@
 .similar-container {
-  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 50px;
+}
+
+.similar-item {
+  text-align: center;
+  width: 250px;
+
+  @media (max-width: 415px) {
+    width: 137px;
+    img {
+      width: 137px;
+    }
+  }
 }
