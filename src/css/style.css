@@ -502,6 +502,49 @@ a {
   filter: invert(1);
 }
 
+#page-popular-track {
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.tracks-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 50px;
+}
+
+.track {
+  display: flex;
+  align-items: center;
+  width: 420px;
+}
+
+.track-body {
+  font-size: 12.8px;
+  line-height: 19.2px;
+}
+.track-body h3 {
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+}
+.track-body p {
+  margin: 0;
+  color: #e0e0e0;
+  text-transform: capitalize;
+}
+
+.track-img {
+  width: 55px;
+  height: 55px;
+  margin-right: 15px;
+}
+
+.track-time {
+  margin-left: auto;
+}
+
 .footer-top {
   margin-top: 62px;
   margin-bottom: 72px;
