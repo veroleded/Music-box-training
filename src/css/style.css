@@ -581,6 +581,11 @@ a {
   text-transform: capitalize;
   margin-bottom: 0;
 }
+@media (max-width: 415px) {
+  .discography-info h3 {
+    margin-top: 10px;
+  }
+}
 
 .footer-top {
   margin-top: 62px;

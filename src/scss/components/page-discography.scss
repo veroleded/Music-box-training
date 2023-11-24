@@ -23,5 +23,11 @@
     font-weight: bold;
     text-transform: capitalize;
     margin-bottom: 0;
+
+    @media (max-width: 415px) {
+      & {
+        margin-top: 10px;
+      }
+    }
   }
 }
