@@ -414,6 +414,12 @@ a {
   font-size: 12px;
 }
 
+.padding-container {
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 #page-app {
   max-width: 1240px;
   padding-left: 20px;
@@ -502,6 +508,12 @@ a {
   filter: invert(1);
 }
 
+.padding-container {
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 #page-popular-track {
   max-width: 1240px;
   padding-left: 20px;
@@ -543,6 +555,31 @@ a {
 
 .track-time {
   margin-left: auto;
+}
+
+.discography-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 50px;
+}
+
+.discography-item {
+  width: 250px;
+}
+@media (max-width: 415px) {
+  .discography-item {
+    width: 137px;
+  }
+  .discography-item img {
+    width: 137px;
+  }
+}
+
+.discography-info h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0;
 }
 
 .footer-top {

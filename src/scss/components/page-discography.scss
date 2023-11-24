@@ -1,0 +1,27 @@
+
+.discography-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 25px 50px;
+}
+
+.discography-item {
+  width: 250px;
+
+  @media (max-width: 415px) {
+    width: 137px;
+    img {
+      width: 137px;
+    }
+  }
+}
+
+.discography-info {
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+}
